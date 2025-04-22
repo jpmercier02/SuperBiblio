@@ -1,0 +1,127 @@
+2025-03-11 09:17:28,308 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-03-11 09:17:28,623 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-11 09:17:28,652 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 25 ms. Found 8 JPA repository interfaces.
+2025-03-11 09:17:29,002 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-03-11 09:17:29,008 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-11 09:17:29,008 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-03-11 09:17:29,008 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-03-11 09:17:29,030 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-03-11 09:17:29,030 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 689 ms
+2025-03-11 09:17:29,049 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-03-11 09:17:29,150 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:superbiblioBD user=APP
+2025-03-11 09:17:29,150 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-03-11 09:17:29,156 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:superbiblioBD'
+2025-03-11 09:17:29,262 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-11 09:17:29,296 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-03-11 09:17:29,314 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-03-11 09:17:29,446 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-11 09:17:30,030 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-11 09:17:30,032 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-11 09:17:30,530 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11 09:17:30,871 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-03-11 09:17:30,881 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2025-03-11 09:17:45,032 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-11 09:17:45,033 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-03-11 09:17:45,033 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2025-03-11 09:18:36,732 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-11 09:18:36,734 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-03-11 09:18:36,736 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-03-11 10:07:58,234 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-03-11 10:07:58,561 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-11 10:07:58,593 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 28 ms. Found 8 JPA repository interfaces.
+2025-03-11 10:07:58,933 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-03-11 10:07:58,938 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-11 10:07:58,939 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-03-11 10:07:58,939 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-03-11 10:07:58,962 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-03-11 10:07:58,963 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 697 ms
+2025-03-11 10:07:58,987 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-03-11 10:07:59,088 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:superbiblioBD user=APP
+2025-03-11 10:07:59,089 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-03-11 10:07:59,094 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:superbiblioBD'
+2025-03-11 10:07:59,198 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-11 10:07:59,229 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-03-11 10:07:59,245 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-03-11 10:07:59,362 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-11 10:07:59,879 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-11 10:07:59,880 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-11 10:08:00,380 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11 10:08:00,696 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-03-11 10:08:00,708 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2025-03-11 10:08:54,793 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-11 10:08:54,794 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-03-11 10:08:54,795 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2025-03-11 10:09:49,909 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-11 10:09:49,911 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-03-11 10:09:49,912 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-03-11 11:10:13,832 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-03-11 11:10:14,158 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-11 11:10:14,189 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 27 ms. Found 8 JPA repository interfaces.
+2025-03-11 11:10:14,541 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-03-11 11:10:14,547 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-11 11:10:14,548 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-03-11 11:10:14,548 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-03-11 11:10:14,571 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-03-11 11:10:14,572 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 705 ms
+2025-03-11 11:10:14,597 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-03-11 11:10:14,697 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:superbiblioBD user=APP
+2025-03-11 11:10:14,698 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-03-11 11:10:14,704 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:superbiblioBD'
+2025-03-11 11:10:14,822 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-11 11:10:14,856 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-03-11 11:10:14,875 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-03-11 11:10:15,004 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-11 11:10:15,521 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-11 11:10:15,523 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-11 11:10:16,023 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11 11:10:16,328 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-03-11 11:10:16,338 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2025-03-11 11:10:35,317 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-11 11:10:35,317 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-03-11 11:10:35,318 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-03-11 11:10:35,337 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-1] Une erreur s'est produite: No static resource actuator/health.
+2025-03-11 11:10:35,407 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-2] Une erreur s'est produite: No static resource favicon.ico.
+2025-03-11 11:15:18,448 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-3] Une erreur s'est produite: No static resource actuator.
+2025-03-11 11:15:18,507 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-4] Une erreur s'est produite: No static resource favicon.ico.
+2025-03-11 11:15:22,643 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-5] Une erreur s'est produite: No static resource actuator/health.
+2025-03-11 11:15:22,700 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-6] Une erreur s'est produite: No static resource favicon.ico.
+2025-03-11 11:17:43,792 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s946ms).
+2025-03-11 11:28:38,842 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m54s994ms).
+2025-03-11 11:29:37,391 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-11 11:29:37,404 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-03-11 11:29:37,406 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-03-11 15:41:41,543 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-03-11 15:41:41,862 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-11 15:41:41,892 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 8 JPA repository interfaces.
+2025-03-11 15:41:42,230 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-03-11 15:41:42,235 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-11 15:41:42,236 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-03-11 15:41:42,236 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-03-11 15:41:42,260 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-03-11 15:41:42,260 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 688 ms
+2025-03-11 15:41:42,285 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-03-11 15:41:42,387 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:superbiblioBD user=APP
+2025-03-11 15:41:42,388 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-03-11 15:41:42,393 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:superbiblioBD'
+2025-03-11 15:41:42,497 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-11 15:41:42,528 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-03-11 15:41:42,543 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-03-11 15:41:42,659 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-11 15:41:43,156 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-11 15:41:43,158 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-11 15:41:43,645 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11 15:41:43,958 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-03-11 15:41:43,967 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2025-03-11 15:42:44,969 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-11 15:42:44,970 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-03-11 15:42:44,971 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-03-11 15:42:45,520 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-2] Une erreur s'est produite: No static resource favicon.ico.
+2025-03-11 15:43:08,050 ERROR c.s.e.GlobalExceptionController [http-nio-8080-exec-5] Une erreur s'est produite: No static resource favicon.ico.
+2025-03-11 16:14:00,265 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m17s548ms).
+2025-03-11 16:36:54,289 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m53s964ms).
+2025-03-11 16:55:32,009 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m7s709ms).
+2025-03-11 18:31:42,789 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m10s780ms).
+2025-03-11 19:39:47,826 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m5s37ms).
+2025-03-11 21:13:39,599 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h33m51s773ms).
+2025-03-11 22:33:31,708 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m52s108ms).
+2025-03-11 23:43:45,697 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m13s990ms).

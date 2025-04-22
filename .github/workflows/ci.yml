@@ -1,0 +1,25 @@
+name: CI - SuperBiblio
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cloner le code
+        uses: actions/checkout@v3
+
+      - name: Installer Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Compiler le projet
+        run: mvn compile
+
+      - name: Lancer les tests
+        run: mvn test

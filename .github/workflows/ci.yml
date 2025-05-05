@@ -32,6 +32,15 @@ jobs:
       - name: Cloner le code
         uses: actions/checkout@v3
 
+      - name: Installer Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Construire le JAR pour Docker
+        run: mvn package -DskipTests
+
       - name: Se connecter à Docker Hub
         uses: docker/login-action@v3
         with:

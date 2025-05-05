@@ -14,6 +14,10 @@ import java.util.Optional;
 @RequestMapping("/livres")
 public class LivreController {
 
+    public void setLivreRepository(LivreRepository livreRepository) {
+        this.livreRepository = livreRepository;
+    }
+
     @Autowired
     private LivreRepository livreRepository;
 
